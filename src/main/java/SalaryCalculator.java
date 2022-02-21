@@ -1,6 +1,6 @@
 public class SalaryCalculator {
     public double multiplierPerDaysSkipped(int daysSkipped) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.multiplierPerDaysSkipped() method");
+        return daysSkipped > 5 ? 0.15 : 1.0;
     }
 
     public int multiplierPerProductsSold(int productsSold) {

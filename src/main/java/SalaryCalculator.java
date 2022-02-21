@@ -1,4 +1,7 @@
 public class SalaryCalculator {
+
+    private static final double BASE_SALARY = 1000.0;
+
     public double multiplierPerDaysSkipped(int daysSkipped) {
         return daysSkipped >= 5 ? 0.85 : 1.0;
     }

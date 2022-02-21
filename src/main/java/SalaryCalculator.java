@@ -1,6 +1,6 @@
 public class SalaryCalculator {
     public double multiplierPerDaysSkipped(int daysSkipped) {
-        return daysSkipped > 5 ? 0.15 : 1.0;
+        return daysSkipped >= 5 ? 0.85 : 1.0;
     }
 
     public int multiplierPerProductsSold(int productsSold) {

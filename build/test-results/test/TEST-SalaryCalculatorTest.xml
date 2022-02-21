@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SalaryCalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-02-21T13:06:43" hostname="DBC" time="0.06">
+<testsuite name="SalaryCalculatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-02-21T13:09:56" hostname="DBC" time="0.058">
   <properties/>
-  <testcase name="soldAboveThreshold" classname="SalaryCalculatorTest" time="0.058"/>
+  <testcase name="soldAboveThreshold" classname="SalaryCalculatorTest" time="0.056"/>
   <testcase name="skippedBelowThresholdAndSoldAboveThreshold" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="salaryRespectMaximum" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="regularSalary" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="salaryCanReachCloseToMaximum" classname="SalaryCalculatorTest" time="0.0"/>
-  <testcase name="skippedAboveThresholdAndSoldBelowThreshold" classname="SalaryCalculatorTest" time="0.001"/>
+  <testcase name="skippedAboveThresholdAndSoldBelowThreshold" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="skippedBelowThreshold" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="skippedAboveThresholdAndSoldAboveThreshold" classname="SalaryCalculatorTest" time="0.0"/>
   <testcase name="skippedAboveThreshold" classname="SalaryCalculatorTest" time="0.0"/>

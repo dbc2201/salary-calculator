@@ -15,6 +15,7 @@ public class SalaryCalculator {
     }
 
     public double finalSalary(int daysSkipped, int productsSold) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.finalSalary() method");
+        double salary = (BASE_SALARY * multiplierPerDaysSkipped(daysSkipped)) + bonusForProductSold(productsSold);
+        return Math.min(salary, 2000.0);
     }
 }

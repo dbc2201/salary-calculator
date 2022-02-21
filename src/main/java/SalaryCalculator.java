@@ -4,7 +4,7 @@ public class SalaryCalculator {
     }
 
     public int multiplierPerProductsSold(int productsSold) {
-        throw new UnsupportedOperationException("Please implement the SalaryCalculator.multiplierPerProductsSold() method");
+        return productsSold >= 20 ? 13 : 10;
     }
 
     public double bonusForProductSold(int productsSold) {
